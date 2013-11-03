@@ -6,3 +6,21 @@ body {
   height: 100px;
   background-color: white;
 }
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+.box-header {
+	background-color: #1EBBA6;
+	padding: 10px 20px;
+	color: white;
+}
+.login-header {
+	background-color: #323A45;
+	padding: 10px 20px;
+	color: white;
+}
+.login-header .first{
+   color:#14B9D6;
+}
