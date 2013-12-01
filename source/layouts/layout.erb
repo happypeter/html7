@@ -12,8 +12,10 @@
     <%= javascript_include_tag 'all' %>
   </head>
   <body class="<%= page_classes %>">
-    <%= partial 'header' %>
-    <%= yield %>
-    <%= partial 'footer' %>
+    <div class="page container">
+      <%= partial 'header' %>
+      <%= yield %>
+      <%= partial 'footer' %>
+    </div>
   </body>
 </html>
