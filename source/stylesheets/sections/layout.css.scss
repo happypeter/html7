@@ -3,10 +3,9 @@
 $header-bg-color: #323A45;
 
 .header {
-  background: $header-bg-color;
+  background: white;
   height: 80px; /* learn from dribble.com. sometimes it's nice to go without .clearfix */
   #logo {
-    color: white;
     font-size: 160%;
     float: left;
     line-height: 80px;
@@ -28,16 +27,12 @@ ul#nav {
   li {
     float: left;
     a {
-      color: white;
       text-decoration: none;
       display: block;
       padding: 0 18px;
       font-weight: bold;
       height: 80px;
       line-height: 80px;
-      &:hover {
-        background: darken($header-bg-color, 5%);
-      }
     }
   }
   li#user-info {
@@ -52,8 +47,9 @@ ul#nav {
 }
 
 .main {
-  padding: 30px 0;
-  background: $main-bg-color;
+  background: white;
+  -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
 .footer {
