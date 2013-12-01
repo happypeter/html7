@@ -3,12 +3,17 @@
     <ul>
       <li><a href="">follower</a></li>
       <li><a href="">following</a></li>
-      <li><a href="">watched books</a></li>
-      <li><a href="">My Books</a></li>
+      <li class="watched-books"><a href="">watched books</a></li>
+      <li class="my-books"><a href="">My Books</a></li>
       <li class="active"><a href="">Data</a></li>
     </ul>
   </div>
   <div class="user-detail-content">
-    <%= partial 'book_lists/mine' %>
+    <div class="watched-books" style="display: none">
+      <%= partial 'book_lists/watched' %>
+    </div>
+    <div class="my-books" style="display: none">
+      <%= partial 'book_lists/mine' %>
+    </div>
   </div>
 </div>
