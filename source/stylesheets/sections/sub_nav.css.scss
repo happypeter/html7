@@ -1,0 +1,28 @@
+@import "globals/variables";
+
+.subnav {
+  margin-bottom: 20px;
+  .tabs {
+    li {
+      display: inline-block;
+      float: left;
+      a {
+        color: black;
+        display: block;
+        line-height: 30px;
+        width: 100px;
+        text-align: center;
+        padding: 10px 0;
+        text-decoration: none;
+        &:hover {
+          background: darken($main-bg-color, 5%);
+          color: black;
+        }
+      }
+    }
+    li.active a{
+      background: #12a5bf;
+      color: white;
+    }
+  }
+}

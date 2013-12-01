@@ -1,0 +1,54 @@
+.name-card {
+  background: white;
+  width: 200px;
+  border: 1px solid #DDDDDD;
+}
+.avatar {
+  margin: 0 auto;
+  padding: 30px;
+  padding-bottom: 10px;
+}
+.avatar img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+.name-email {
+  padding: 10px;
+}
+.name-card h1 {
+  text-align: center;
+  color: #536378;
+  font-weight: normal;
+  font-size: 140%;
+  margin: 0;
+}
+.name-card .email {
+  color: #BAC1C9;
+  text-align: center;
+  font-size: 80%;
+  overflow: hidden;
+}
+
+.fllower-following a {
+  display: block;
+  float: left;
+  padding: 10px 0;
+  width: 100px;
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+.follower a {
+  background: #14B9D6;
+  &:hover {
+    background: darken(#14B9D6, 5%);
+  }
+}
+.following a {
+  background: #F27935;
+  &:hover {
+    background: darken(#F27935, 5%);
+  }
+}

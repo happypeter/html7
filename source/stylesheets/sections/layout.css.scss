@@ -1,0 +1,93 @@
+@import "globals/variables";
+
+$header-bg-color: #323A45;
+
+.header {
+  background: $header-bg-color;
+  height: 80px; /* learn from dribble.com. sometimes it's nice to go without .clearfix */
+  #logo {
+    color: white;
+    font-size: 160%;
+    float: left;
+    line-height: 80px;
+    padding-right: 10px;
+  }
+}
+
+.left-col {
+  width: 200px;
+  float: left;
+}
+.right-col {
+  width: 650px; // one book item is width = 150 + 10x2 + 20x2 = 210, 210x3=630, has to add sth more, don't know why
+  float: right;
+}
+
+ul#nav {
+  margin: 0;
+  li {
+    float: left;
+    a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding: 0 18px;
+      font-weight: bold;
+      height: 80px;
+      line-height: 80px;
+      &:hover {
+        background: darken($header-bg-color, 5%);
+      }
+    }
+  }
+  li#user-info {
+    float: right;
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      padding: 20px 10px;
+    }
+  }
+}
+
+.main {
+  padding: 30px 0;
+  background: $main-bg-color;
+  background: red;
+}
+
+.footer {
+  min-height: 80px;
+  padding-top: 21px;
+  position: relative;
+  .footer-icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50% ;
+    border-radius: 50% ;
+    background: #999;
+    &:hover {
+      background: #666;
+    }
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    margin-left: -10px;
+  }
+}
+.footer-links.right {
+  float: right;
+}
+
+ul.footer-links {
+  float: left;
+  li {
+    margin-left: 10px;
+    color: #999;
+    display: inline-block;
+    line-height: 16px;
+  }
+}

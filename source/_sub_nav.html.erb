@@ -1,0 +1,25 @@
+<div class="subnav cf">
+  <ul class="tabs">
+    <li class="watched-books active">
+      <a  href="#">关注的书</a>
+    </li>
+    <li class="my-books">
+      <a href="#">我写的书</a>
+    </li>
+    <li class="other-books">
+      <a href="#">Data</a>
+    </li>
+  </ul>
+</div>
+
+<div class="books">
+  <div class="watched-books" style="display: none">
+    <%= partial 'book_lists/watched' %>
+  </div>
+  <div class="my-books" style="display: none">
+    <%= partial 'book_lists/mine' %>
+  </div>
+  <div class="other-books" style="display: none">
+    <%= partial 'book_lists/other' %>
+  </div>
+</div>
