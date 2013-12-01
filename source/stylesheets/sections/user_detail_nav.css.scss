@@ -2,10 +2,28 @@
 $user-detail-content-bg: #EAEDF1;
 .user-detail-nav {
   .user-detail-list {
+    position: relative;
     background: $brand-dark;
     float: left;
     height: 620px;
     width: 200px;
+    ul.social-links {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      margin-left: -90px;
+      li {
+        display: inline-block;
+        font-size: 25px;
+        padding: 5px;
+      }
+      a {
+        color: white;
+        &:hover {
+          color: #ccc;
+        }
+      }
+    }
   }
   .user-detail-content {
     width: 760px;
