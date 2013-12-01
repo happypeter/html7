@@ -1,0 +1,15 @@
+@import "globals/variables";
+$user-detail-content-bg: #EAEDF1;
+.user-detail-nav {
+  .user-detail-list {
+    background: $brand-dark;
+    float: left;
+    height: 300px;
+    width: 200px;
+  }
+  .user-detail-content {
+    width: 760px;
+    float: right;
+    background: $user-detail-content-bg;
+  }
+}
