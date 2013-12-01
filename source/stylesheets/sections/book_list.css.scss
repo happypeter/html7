@@ -15,5 +15,30 @@ ul.book-list {
     -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.25);
     box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.25);
   }
+  li.book {
+    position: relative;
+  }
+  .book::before {
+    content: attr(data-title);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 0;
+    font-family: 'Croissant One', cursive;
+    font-size: 1.8em;
+    color: #086FA1;
+    background: rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+
+  .book:hover::before {
+    height: 195px;
+  }
 }
 
