@@ -12,4 +12,18 @@ $user-detail-content-bg: #EAEDF1;
     float: right;
     background: $user-detail-content-bg;
   }
+  ul {
+    li a {
+      display: block;
+      text-align: center;
+      line-height: 40px;
+      color: white;
+      &:hover {
+        color: #ccc;
+      }
+    }
+    li.active a {
+      color: yellow;
+    }
+  }
 }
