@@ -4,10 +4,10 @@ $header-bg-color: #323A45;
 
 .header {
   background: white;
-  height: 50px; /* learn from dribble.com. sometimes it's nice to go without .clearfix */
+  height: 70px; /* learn from dribble.com. sometimes it's nice to go without .clearfix */
   #logo {
     font-size: 13px;
-    line-height: 50px;
+    line-height: 70px;
     text-align: center;
     width: 200px;
     color: white;
@@ -36,15 +36,16 @@ ul#nav {
       display: block;
       padding: 0 18px;
       font-weight: bold;
-      height: 50px;
-      line-height: 50px;
+      height: 70px;
+      line-height: 70px;
     }
   }
   li#user-info {
     img {
+      display: block;
       width: 30px;
       height: 30px;
-      padding: 10px 0;
+      padding: 20px 0;
       border-radius: 50%;
     }
   }
