@@ -59,6 +59,7 @@ ul#nav {
 .footer {
   min-height: 80px;
   padding-top: 21px;
+  background: white;
   position: relative;
   .footer-icon {
     display: block;
@@ -73,7 +74,7 @@ ul#nav {
     }
     position: absolute;
     left: 50%;
-    top: 20px;
+    top: 40px;
     margin-left: -10px;
   }
 }
@@ -84,7 +85,7 @@ ul#nav {
 ul.footer-links {
   float: left;
   li {
-    margin-left: 10px;
+    margin: 20px;
     color: #999;
     display: inline-block;
     line-height: 16px;

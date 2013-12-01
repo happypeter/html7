@@ -4,19 +4,20 @@ $user-detail-content-bg: #EAEDF1;
   .user-detail-list {
     background: $brand-dark;
     float: left;
-    height: 300px;
+    height: 620px;
     width: 200px;
   }
   .user-detail-content {
     width: 760px;
     float: right;
+    height: 620px;
     background: $user-detail-content-bg;
   }
   ul {
     li a {
       display: block;
       text-align: center;
-      line-height: 40px;
+      line-height: 50px;
       color: white;
       &:hover {
         color: #ccc;
