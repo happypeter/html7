@@ -31,4 +31,21 @@
       overflow: hidden;
     }
   }
+
+  .new-book-btn {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 19px;
+    font-size: 17px;
+    line-height: 1.471;
+    border-radius: 6px;
+    color: #FFF;
+    background-color: #D63030;
+    &:hover {
+      cursor: pointer;
+      background-color: lighten(#D63030, 10%);
+    }
+  }
 }
