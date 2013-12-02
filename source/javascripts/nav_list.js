@@ -9,6 +9,6 @@ $(document).ready(function() {
 
   });
 
-  $('.user-detail-list .site-data').children('.watched-books').addClass('active');
-  $('.user-detail-content').children('.watched-books').show();
+  $('.user-detail-list .site-data').children('.my-books').addClass('active');
+  $('.user-detail-content').children('.my-books').show();
 });
