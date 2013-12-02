@@ -39,12 +39,12 @@ ul#nav {
       text-decoration: none;
       display: block;
       padding: 0 18px;
-      font-weight: bold;
       height: 70px;
       line-height: 70px;
     }
-  }
-  li#user-info {
+    a.sign-out {
+      font-size: 25px;
+    }
     img {
       display: block;
       width: 30px;
