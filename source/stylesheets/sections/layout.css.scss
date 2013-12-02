@@ -1,7 +1,5 @@
 @import "globals/variables";
 
-$header-bg-color: #323A45;
-
 .header {
   background: white;
   height: 70px; /* learn from dribble.com. sometimes it's nice to go without .clearfix */
@@ -13,6 +11,13 @@ $header-bg-color: #323A45;
     color: white;
     float: left;
     background: $brand-dark;
+  }
+}
+
+.header a, .footer a {
+  color: $white-bg-text-color;
+  &:hover {
+    color: $white-bg-text-hover;
   }
 }
 
@@ -31,7 +36,6 @@ ul#nav {
     float: right;
     font-size: 13px;
     a {
-      color: #999;
       text-decoration: none;
       display: block;
       padding: 0 18px;
@@ -63,17 +67,15 @@ ul#nav {
   padding-top: 21px;
   background: white;
   position: relative;
+
   .footer-icon {
     display: block;
     width: 20px;
     height: 20px;
+    font-size: 20px;
+    text-align: center;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50% ;
-    border-radius: 50% ;
-    background: #999;
-    &:hover {
-      background: #666;
-    }
     position: absolute;
     left: 50%;
     top: 40px;
