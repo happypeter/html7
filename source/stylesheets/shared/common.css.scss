@@ -9,6 +9,7 @@ ul {
 
 a {
   text-decoration: none;
+  cursor: pointer; // this is default on chrome if a has href
   color: $default-link-color;
   &:hover {
     color: $default-link-hover;
