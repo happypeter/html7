@@ -4,7 +4,6 @@
   background: white;
   height: 70px; /* learn from dribble.com. sometimes it's nice to go without .clearfix */
   #logo {
-    font-size: 13px;
     line-height: 70px;
     text-align: center;
     width: 200px;
@@ -15,11 +14,14 @@
   .search {
     float: left;
     padding: 20px;
-    input {
-       border:0 none;
-       height: 30px;
-    }
-  }
+    input[type=text] {
+     height: 30px;
+     border:none;
+     outline:none;
+     background:transparent;
+     text-indent: 10px;
+   }
+ }
 }
 
 .left-col {
@@ -38,7 +40,6 @@ ul#nav {
   float: right;
   li {
     float: left;
-    font-size: 13px;
     a {
       text-decoration: none;
       display: block;
