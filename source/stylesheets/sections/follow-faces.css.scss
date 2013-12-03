@@ -1,3 +1,5 @@
+@import "globals/variables";
+
 .follow-faces {
   img {
     width: 120px;
@@ -18,8 +20,5 @@
     text-align: center;
     line-height: 25px;
     margin: 20px;
-    a {
-      color: black;
-    }
   }
 }

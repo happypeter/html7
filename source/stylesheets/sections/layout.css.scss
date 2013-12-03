@@ -14,13 +14,6 @@
   }
 }
 
-.header a, .footer a {
-  color: $white-bg-text-color;
-  &:hover {
-    color: $white-bg-text-hover;
-  }
-}
-
 .left-col {
   width: 200px;
   float: left;
