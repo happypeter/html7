@@ -1,13 +1,25 @@
-.follow-faces img {
-  border-width: 4px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  border: solid 3px #FFF;
-  display: inline-block;
-  margin: 20px;
-  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.25);
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.25);
+.follow-faces {
+  img {
+    width: 120px;
+    height: 120px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    border: solid 5px #FFF;
+    display: inline-block;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.25);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.25);
+  }
+  li.follow-face {
+    display: inline-block;
+    width: 130px;
+    text-align: center;
+    line-height: 25px;
+    margin: 20px;
+    a {
+      color: black;
+    }
+  }
 }
